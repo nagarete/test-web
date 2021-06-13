@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  color: white;
+}
+
+/* https://coolors.co/cfdbd5-e8eddf-f5cb5c-242423-333533 */
+/* background: linear-gradient(35deg, #CCFFFF, #FFCCCC */
+
+body{
+  background-color: black;
+}
+
+p{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2rem;
+}
+
+.quote-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2.5rem 10rem 2.5rem 10rem;
+  /* background-color: #001541; */
+  border-radius: 2.5rem;
+}
+
+.quote-text-p{
+  font-size: 2.5rem;
+  font-family: 'Viaoda Libre', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo{
+  height: 15rem;
+  margin-left: 25rem;
+}
+
+.header-text{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.catalog{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.catalog-name{
+  text-align: center;
+  /* background-color: grey; */
+  margin: 1rem 30rem 1rem 30rem;
+}
+
+.catalog-pictures{
+  display: flex;
+  /* height: 15rem; */
+  justify-content: space-around;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  /* border:0.5rem solid #f5cb5c; */
+  padding: 2rem 0.95rem 2rem 0.95rem;
+}
+
+.catalog-pictures-content{
+  height: 15rem;
+}
+
+.catalog-pictures-black{
+  background-color: #333533;
+}
+
+.catalog-pictures-white{
+  background-color: #cfdbd5;
+}
+
+.harga{
+  display: flex;
+  margin: 1.5rem 15rem 1.5rem 15rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 20rem;
+  margin-right: 20rem; */
+  justify-content: space-around;
+  /* border:0.5rem solid yellow;
+  padding-left: 0.2rem; */
+  /* background-color: green; */
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  text-align: center;
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-icon{
+  height: 3rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.promo{
+  text-align: center;
+  margin-right: 15rem;
+  margin-left: 15rem;
+  padding: 3rem 3rem;
+  border: 10px solid grey;
+  border-radius: 2rem;
+}
+
+footer{
+  margin-top: 7rem;
+}
+
+.social-media{
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 550px){
+  
+}

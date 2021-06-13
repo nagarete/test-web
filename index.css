@@ -1,140 +1,138 @@
-*{
+* {
   margin: 0;
-  color: white;
 }
 
-/* https://coolors.co/cfdbd5-e8eddf-f5cb5c-242423-333533 */
-/* background: linear-gradient(35deg, #CCFFFF, #FFCCCC */
-
-body{
-  background-color: black;
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
 }
 
-p{
-  font-family: 'Varela Round', sans-serif;
-  font-size: 1.2rem;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.quote-text{
+header {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin: 2.5rem 10rem 2.5rem 10rem;
-  /* background-color: #001541; */
-  border-radius: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.quote-text-p{
-  font-size: 2.5rem;
-  font-family: 'Viaoda Libre', cursive;
-}
-
-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.logo{
-  height: 15rem;
-  margin-left: 25rem;
-}
-
-.header-text{
-  display: flex;
-  flex-direction: column;
-  margin-right: 25rem;
-  margin-top: 2rem;
-  text-align: center;
-}
-
-.catalog{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
-}
-
-.catalog-name{
-  text-align: center;
-  /* background-color: grey; */
-  margin: 1rem 30rem 1rem 30rem;
-}
-
-.catalog-pictures{
-  display: flex;
-  /* height: 15rem; */
-  justify-content: space-around;
-  margin-left: 15rem;
-  margin-right: 15rem;
-  /* border:0.5rem solid #f5cb5c; */
-  padding: 2rem 0.95rem 2rem 0.95rem;
-}
-
-.catalog-pictures-content{
-  height: 15rem;
-}
-
-.catalog-pictures-black{
-  background-color: #333533;
-}
-
-.catalog-pictures-white{
-  background-color: #cfdbd5;
-}
-
-.harga{
-  display: flex;
-  margin: 1.5rem 15rem 1.5rem 15rem;
-  /* margin-top: 1rem;
+.arrow-down {
+  width: 3rem;
   margin-bottom: 1rem;
-  margin-left: 20rem;
-  margin-right: 20rem; */
-  justify-content: space-around;
-  /* border:0.5rem solid yellow;
-  padding-left: 0.2rem; */
-  /* background-color: green; */
 }
 
-footer{
+.container {
   display: flex;
   flex-direction: column;
-}
-
-h3{
-  text-align: center;
-}
-
-.social-media{
-  display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 5rem;
 }
 
-.logo-icon{
-  height: 3rem;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+.content {
+  min-height: 100vh;
+}
+
+.content-icon {
+  width: 3rem;
   margin-top: 0.5rem;
-  margin-bottom: 3rem;
+  margin-right: 1rem;
 }
 
-.promo{
+.content-links {
+  display: flex;
+  align-items: center;
+}
+.content-links-container {
+  margin-top: 2rem;
+}
+
+.desc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* .header-content {
+  justify-content: space-between;
+} */
+
+.header-icon {
+  width: 2rem;
+  margin: 0 1rem;
+}
+
+.header-icon-container {
+  display: flex;
+}
+
+.header-logo {
+  width: 3rem;
+}
+
+.header-logo-container {
+  margin-right: auto;
+}
+
+.header-motto {
+  font-family: "Oswald", sans-serif;
+  font-size: 5rem;
   text-align: center;
-  margin-right: 15rem;
-  margin-left: 15rem;
-  padding: 3rem 3rem;
-  border: 10px solid grey;
-  border-radius: 2rem;
+  margin-top: -5rem;
 }
 
-footer{
-  margin-top: 7rem;
+.header-phrase {
+  font-size: 1.25rem;
+  margin: 1rem;
 }
 
-.social-media{
-  margin-top: 0.5rem;
+.icon-phone {
+  margin-left: 0.5rem;
 }
 
-@media (max-width: 550px){
-  
+.icon-tokped {
+  margin-left: -0.35rem;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.img-mockup {
+  height: 80vh;
+}
+
+.menu {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.menu-item-right {
+  margin-right: 1rem;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  padding: 2rem;
+}
+
+.page-1 {
+  max-height: 100vh;
+  background-image: linear-gradient(#ecebe9, #e5e4e2);
+  display: flex;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
 }
